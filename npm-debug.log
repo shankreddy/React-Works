@@ -1,0 +1,220 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'react-tools' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'react-tools', null ]
+5 verbose cache add name=undefined spec="react-tools" args=["react-tools",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'react-tools',
+6 verbose parsed url   path: 'react-tools',
+6 verbose parsed url   href: 'react-tools' }
+7 silly lockFile 0f761efe-react-tools react-tools
+8 verbose lock react-tools C:\Users\shashank.reddy\AppData\Roaming\npm-cache\0f761efe-react-tools.lock
+9 silly lockFile 0f761efe-react-tools react-tools
+10 silly lockFile 0f761efe-react-tools react-tools
+11 verbose addNamed [ 'react-tools', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 47fcd5e0-react-tools react-tools@
+14 verbose lock react-tools@ C:\Users\shashank.reddy\AppData\Roaming\npm-cache\47fcd5e0-react-tools.lock
+15 silly addNameRange { name: 'react-tools', range: '*', hasData: false }
+16 verbose request where is /react-tools
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id d53a758c3670a8fc
+19 verbose url raw /react-tools
+20 verbose url resolving [ 'https://registry.npmjs.org/', './react-tools' ]
+21 verbose url resolved https://registry.npmjs.org/react-tools
+22 verbose request where is https://registry.npmjs.org/react-tools
+23 info trying registry request attempt 1 at 12:41:56
+24 verbose etag "45G4N9WN2WOYHSE30KRFV5YGF"
+25 http GET https://registry.npmjs.org/react-tools
+26 http 304 https://registry.npmjs.org/react-tools
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Mon, 30 Mar 2015 07:11:57 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Mon, 30 Mar 2015 07:11:57 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"45G4N9WN2WOYHSE30KRFV5YGF"',
+27 silly registry.get     age: '34',
+27 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1427699517.492136,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/react-tools from cache
+29 silly addNameRange number 2 { name: 'react-tools', range: '*', hasData: true }
+30 silly addNameRange versions [ 'react-tools',
+30 silly addNameRange   [ '0.3.0',
+30 silly addNameRange     '0.3.1',
+30 silly addNameRange     '0.3.2',
+30 silly addNameRange     '0.3.3',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.5.1',
+30 silly addNameRange     '0.4.2',
+30 silly addNameRange     '0.5.2',
+30 silly addNameRange     '0.8.0',
+30 silly addNameRange     '0.9.0-rc1',
+30 silly addNameRange     '0.9.0',
+30 silly addNameRange     '0.10.0-rc1',
+30 silly addNameRange     '0.10.0',
+30 silly addNameRange     '0.11.0-rc1',
+30 silly addNameRange     '0.11.0',
+30 silly addNameRange     '0.11.1',
+30 silly addNameRange     '0.11.2',
+30 silly addNameRange     '0.12.0-rc1',
+30 silly addNameRange     '0.12.0',
+30 silly addNameRange     '0.12.1',
+30 silly addNameRange     '0.12.2',
+30 silly addNameRange     '0.13.0-alpha.1',
+30 silly addNameRange     '0.13.0-alpha.2',
+30 silly addNameRange     '0.13.0-beta.1',
+30 silly addNameRange     '0.13.0-beta.2',
+30 silly addNameRange     '0.13.0-rc1',
+30 silly addNameRange     '0.13.0-rc2',
+30 silly addNameRange     '0.13.0',
+30 silly addNameRange     '0.13.1' ] ]
+31 verbose addNamed [ 'react-tools', '0.13.1' ]
+32 verbose addNamed [ '0.13.1', '0.13.1' ]
+33 silly lockFile bcc38442-react-tools-0-13-1 react-tools@0.13.1
+34 verbose lock react-tools@0.13.1 C:\Users\shashank.reddy\AppData\Roaming\npm-cache\bcc38442-react-tools-0-13-1.lock
+35 silly lockFile bcc38442-react-tools-0-13-1 react-tools@0.13.1
+36 silly lockFile bcc38442-react-tools-0-13-1 react-tools@0.13.1
+37 silly lockFile 47fcd5e0-react-tools react-tools@
+38 silly lockFile 47fcd5e0-react-tools react-tools@
+39 silly resolved [ { name: 'react-tools',
+39 silly resolved     description: 'A set of complementary tools to React, including the JSX transformer.',
+39 silly resolved     version: '0.13.1',
+39 silly resolved     keywords: [ 'react', 'jsx', 'transformer', 'view' ],
+39 silly resolved     homepage: 'http://facebook.github.io/react',
+39 silly resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+39 silly resolved     license: 'BSD-3-Clause',
+39 silly resolved     files:
+39 silly resolved      [ 'main.js',
+39 silly resolved        'bin/jsx',
+39 silly resolved        'src/',
+39 silly resolved        'vendor/fbtransform/',
+39 silly resolved        'vendor/inline-source-map.js' ],
+39 silly resolved     main: 'main.js',
+39 silly resolved     bin: { jsx: './bin/jsx' },
+39 silly resolved     repository: { type: 'git', url: 'https://github.com/facebook/react' },
+39 silly resolved     dependencies: { commoner: '^0.10.0', jstransform: '^10.1.0' },
+39 silly resolved     devDependencies:
+39 silly resolved      { benchmark: '~1.0.0',
+39 silly resolved        browserify: '^9.0.3',
+39 silly resolved        'bundle-collapser': '^1.1.1',
+39 silly resolved        'coffee-script': '^1.8.0',
+39 silly resolved        coverify: '~1.0.4',
+39 silly resolved        derequire: '^2.0.0',
+39 silly resolved        envify: '^3.0.0',
+39 silly resolved        es3ify: '~0.1.2',
+39 silly resolved        'es5-shim': '^4.0.0',
+39 silly resolved        eslint: '^0.14.1',
+39 silly resolved        'esprima-fb': '^13001.1001.0-dev-harmony-fb',
+39 silly resolved        grunt: '~0.4.2',
+39 silly resolved        'grunt-cli': '~0.1.9',
+39 silly resolved        'grunt-compare-size': '~0.4.0',
+39 silly resolved        'grunt-contrib-clean': '^0.6.0',
+39 silly resolved        'grunt-contrib-compress': '^0.13.0',
+39 silly resolved        'grunt-contrib-connect': '~0.6.0',
+39 silly resolved        'grunt-contrib-copy': '^0.8.0',
+39 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+39 silly resolved        'grunt-jest': '^0.1.2',
+39 silly resolved        'gzip-js': '~0.3.2',
+39 silly resolved        'jasmine-tapreporter': '~0.2.2',
+39 silly resolved        'jest-cli': '^0.2.1',
+39 silly resolved        optimist: '~0.6.0',
+39 silly resolved        phantomjs: '~1.9',
+39 silly resolved        platform: '^1.1.0',
+39 silly resolved        populist: '~0.1.6',
+39 silly resolved        recast: '^0.9.11',
+39 silly resolved        'sauce-tunnel': '~1.1.0',
+39 silly resolved        tmp: '~0.0.18',
+39 silly resolved        typescript: '^1.4.0',
+39 silly resolved        'uglify-js': '~2.4.0',
+39 silly resolved        uglifyify: '^3.0.1',
+39 silly resolved        wd: '~0.2.6' },
+39 silly resolved     engines: { node: '>=0.10.0' },
+39 silly resolved     preferGlobal: true,
+39 silly resolved     commonerConfig: { version: 4 },
+39 silly resolved     scripts:
+39 silly resolved      { test: 'jest',
+39 silly resolved        jest: 'jest',
+39 silly resolved        lint: 'eslint src',
+39 silly resolved        build: 'grunt build' },
+39 silly resolved     jest:
+39 silly resolved      { rootDir: '',
+39 silly resolved        scriptPreprocessor: 'jest/preprocessor.js',
+39 silly resolved        setupEnvScriptFile: 'jest/environment.js',
+39 silly resolved        persistModuleRegistryBetweenSpecs: true,
+39 silly resolved        testFileExtensions: [Object],
+39 silly resolved        modulePathIgnorePatterns: [Object],
+39 silly resolved        testPathIgnorePatterns: [Object],
+39 silly resolved        unmockedModulePathPatterns: [Object] },
+39 silly resolved     _id: 'react-tools@0.13.1',
+39 silly resolved     _shasum: '7e8ea87c771d9f2114473950fa2fa8d2e3b8200d',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz',
+39 silly resolved     _from: 'react-tools@',
+39 silly resolved     _npmVersion: '2.7.1',
+39 silly resolved     _nodeVersion: '0.10.36',
+39 silly resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+39 silly resolved     maintainers: [ [Object], [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: '7e8ea87c771d9f2114473950fa2fa8d2e3b8200d',
+39 silly resolved        tarball: 'http://registry.npmjs.org/react-tools/-/react-tools-0.13.1.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install react-tools@0.13.1 into C:\Program Files
+41 info installOne react-tools@0.13.1
+42 verbose node_modules\react-tools unbuild
+43 verbose tar unpack C:\Users\shashank.reddy\AppData\Roaming\npm-cache\react-tools\0.13.1\package.tgz
+44 silly lockFile f4957891-m-Files-node-modules-react-tools tar://C:\Program Files\node_modules\react-tools
+45 verbose lock tar://C:\Program Files\node_modules\react-tools C:\Users\shashank.reddy\AppData\Roaming\npm-cache\f4957891-m-Files-node-modules-react-tools.lock
+46 silly lockFile 950b3bde-e-react-tools-0-13-1-package-tgz tar://C:\Users\shashank.reddy\AppData\Roaming\npm-cache\react-tools\0.13.1\package.tgz
+47 verbose lock tar://C:\Users\shashank.reddy\AppData\Roaming\npm-cache\react-tools\0.13.1\package.tgz C:\Users\shashank.reddy\AppData\Roaming\npm-cache\950b3bde-e-react-tools-0-13-1-package-tgz.lock
+48 silly gunzTarPerm modes [ '777', '666' ]
+49 error Error: EPERM, mkdir 'C:\Program Files\node_modules'
+49 error  { [Error: EPERM, mkdir 'C:\Program Files\node_modules']
+49 error   errno: 50,
+49 error   code: 'EPERM',
+49 error   path: 'C:\\Program Files\\node_modules',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: 'C:\\Program Files\\node_modules\\react-tools',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ 'c:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\fstream\\lib\\writer.js:171:23',
+49 error      'c:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\mkdirp\\index.js:46:53',
+49 error      'Object.oncomplete (fs.js:107:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Windows_NT 6.1.7601
+52 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "react-tools"
+53 error cwd d:\React-Works
+54 error node -v v0.10.33
+55 error npm -v 1.4.28
+56 error path C:\Program Files\node_modules
+57 error fstream_path C:\Program Files\node_modules\react-tools
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EPERM
+61 error errno 50
+62 error stack Error: EPERM, mkdir 'C:\Program Files\node_modules'
+63 error fstream_stack c:\Program Files\nodejs\node_modules\npm\node_modules\fstream\lib\writer.js:171:23
+63 error fstream_stack c:\Program Files\nodejs\node_modules\npm\node_modules\mkdirp\index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:107:15)
+64 verbose exit [ 50, true ]
