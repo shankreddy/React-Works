@@ -5,6 +5,7 @@ var RadioOptionGroup = React.createClass({
 		options: React.PropTypes.array.isRequired
 	},
 	onChange: function(event){
+		console.log(this.props.other);
 		if(this.props.other){
 			this.refs.other.forceUpdate();
 		}
